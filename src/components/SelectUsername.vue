@@ -1,9 +1,17 @@
 <template>
-  <div class="select-username">
-    <form @submit.prevent="onSubmit">
-      <input v-model="username" placeholder="Your username..." />
-      <button :disabled="!isValid">Send</button>
-    </form>
+  <div class="">
+
+    <div class="welcome">
+      <h1>CHAT PRIVADO BY RZ CORPS</h1>
+    </div>
+
+    <div class="select-username">
+      <form @submit.prevent="onSubmit">
+        <input v-model="username" placeholder="Your username..." />
+        <button :disabled="!isValid">Send</button>
+      </form>
+    </div>
+
   </div>
 </template>
 
@@ -29,6 +37,12 @@ export default {
 </script>
 
 <style scoped>
+
+.welcome {
+  text-align: center;
+  margin-top: 5rem;
+}
+
 .select-username {
   width: 300px;
   margin: 200px auto 0;
