@@ -21,4 +21,3 @@ cd server
 npm install
 npm start
 ```
-https://socket.io/get-started/private-messaging-part-4/#review
