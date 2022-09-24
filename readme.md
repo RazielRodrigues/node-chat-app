@@ -13,3 +13,4 @@ Add private messaging.
 Share your improvements!
 
 https://socket.io/get-started/
+git clone https://github.com/socketio/socket.io.git
